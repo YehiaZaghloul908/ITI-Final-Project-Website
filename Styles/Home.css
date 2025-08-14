@@ -8,7 +8,6 @@ body {
 #navBar {
     display: flex;
     background-color: rgb(238, 203, 108);
-    display: flex;
     align-items: center;
     height: 100px;
 }
@@ -125,4 +124,5 @@ footer{
     margin-left: auto;
     margin-right: 30px;
     font-weight: bold;
+
 }
