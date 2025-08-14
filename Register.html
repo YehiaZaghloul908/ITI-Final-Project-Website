@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Egypt Environmental Travels</title>
+        <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Styles/Register.css">
+        <script src="./Scripts/Register.js"></script>
+    </head>
+    <body>
+        <form id="form">
+            <label>Email</label>
+            <input type="email" placeholder="Example@gmail.com" id="email">
+            <label id="emptyEmail"></label>
+            <label>Username</label>
+            <input type="text" id="username">
+            <label id="emptyUsername"></label>
+            <label>Password</label>
+            <input type="password" id="password">
+            <label id="emptyPassword"></label>
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword">
+            <label id="incorrectConfirmPassword"></label>
+            <label>Gender</label>
+            <div id="gender">
+                <label>Male</label>
+                <input type="radio" name="gender" value="Male" id="maleOption">
+                <label>Female</label>
+                <input type="radio" name="gender" value="Female" id="femaleOption">
+            </div>
+            <label id="emptyGenderOption"></label>
+            <button type="submit" id="register">Register</button>
+        </form">
+    </body>
+</html>

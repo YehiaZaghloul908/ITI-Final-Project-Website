@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 228, 106);
+    background-image: url("../Images/Egypt.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(250, 232, 152);
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    gap: 4px;
+    width: 80vw;
+}
+
+form button  {
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+
+form button:hover  {
+    background-color: rgb(254, 231, 200);
+}
